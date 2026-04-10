@@ -1,0 +1,444 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "search": "検索",
+    "getStartedFree": "無料で始める",
+    "viewPricing": "料金を見る",
+    "seeHowItWorks": "使い方を見る",
+    "learnMore": "詳しく見る",
+    "sendMessage": "メッセージを送る",
+    "contactSupport": "サポートに連絡"
+  },
+  "header": {
+    "findTalent": "人材を探す",
+    "findJobs": "仕事を探す",
+    "howItWorks": "使い方",
+    "pricing": "料金",
+    "login": "ログイン"
+  },
+  "landing": {
+    "hero": {
+      "badge": {
+        "talent": "10,000人以上のエキスパート開発者が待機中",
+        "jobs": "トップ企業から5,000件以上の求人"
+      },
+      "title": {
+        "talent": "エキスパート開発者を",
+        "talentHighlight": "あらゆるプロジェクトに",
+        "jobs": "理想の仕事を見つけよう",
+        "jobsHighlight": "素晴らしいプロジェクトに参加"
+      },
+      "subtitle": {
+        "talent": "世界中のトップクラスの開発者とつながる。AIマッチングで数分で最適な人材を。",
+        "jobs": "一流企業からの機会を発見。AIによる求人マッチング。"
+      },
+      "searchPlaceholder": {
+        "talent": "「Reactエンジニア」「モバイルアプリ」「AIエンジニア」で検索...",
+        "jobs": "「フロントエンド」「リモート」「正社員」で検索..."
+      },
+      "popular": "人気:",
+      "popularTalent": ["Reactエンジニア", "モバイルアプリ", "AI/ML", "フルスタック", "DevOps", "UI/UX"],
+      "popularJobs": ["リモート", "フロントエンド", "バックエンド", "正社員", "契約", "パートタイム"],
+      "trustBadges": {
+        "secure": "安全・認証済み",
+        "noCard": "クレジットカード不要",
+        "aiPowered": "AI搭載マッチング"
+      }
+    },
+    "categories": {
+      "badge": "人材を探す",
+      "title": "カテゴリーで探す",
+      "subtitle": "様々な専門分野でプロジェクトに最適な開発者を見つけましょう",
+      "viewAll": "すべてのカテゴリーを見る"
+    },
+    "featuredDevelopers": {
+      "badge": "トップ人材",
+      "title": "評価の高いセラー",
+      "subtitle": "実績のあるトップセラーが、あなたのアイデアを形にします",
+      "viewAll": "すべてのセラーを見る"
+    },
+    "featuredJobs": {
+      "badge": "注目の求人",
+      "title": "おすすめの求人",
+      "subtitle": "優秀な開発者を求めるトップ企業からのエキサイティングな機会",
+      "viewAll": "すべての求人を見る"
+    },
+    "features": {
+      "badge": "選ばれる理由",
+      "title": "必要なものがすべて",
+      "titleHighlight": "一つのプラットフォームに",
+      "subtitle": "採用と仕事をシームレスにする強力な機能",
+      "items": {
+        "escrow": {
+          "title": "14日間エスクロー保護",
+          "description": "納品まで資金を安全に保持。14日後の自動リリースで双方を保護。"
+        },
+        "aiMatching": {
+          "title": "AI搭載マッチング",
+          "description": "50以上の要素に基づき、スマート入札システムがクライアントと最適なチームをつなぎます。"
+        },
+        "templates": {
+          "title": "95以上のプロジェクトテンプレート",
+          "description": "14カテゴリーにわたる既製ワークフロー、マイルストーン、費用、要件付き。"
+        },
+        "dispute": {
+          "title": "7-2-2紛争解決",
+          "description": "7日間の交渉、2日間の調停、2日間の執行。迅速で公正な解決。"
+        },
+        "communication": {
+          "title": "コミュニケーションハブ",
+          "description": "チャット、ビデオ通話、ホワイトボード、会議スケジューラーを一箇所に統合。"
+        },
+        "teamTypes": {
+          "title": "個人・チーム・代理店",
+          "description": "個人フリーランサー、小規模チーム、大規模代理店向けの柔軟な企業プロファイル。"
+        },
+        "proofOfDelivery": {
+          "title": "納品証明",
+          "description": "必須のファイルアップロードとタイムライン追跡で説明責任を確保。"
+        },
+        "pricing": {
+          "title": "透明な料金",
+          "description": "成功報酬のみ10%のプラットフォーム手数料。隠れたコストなし。"
+        }
+      }
+    },
+    "howItWorks": {
+      "badge": "シンプルなプロセス",
+      "title": "アイデアから完成まで",
+      "titleHighlight": "5つの簡単なステップで",
+      "subtitle": "AI搭載プラットフォームがプロジェクトの各段階をガイドします",
+      "steps": {
+        "step1": {
+          "title": "プロジェクトを投稿",
+          "description": "デザイン、マーケティング、ライティング、開発、ビデオ、ビジネスコンサルティングなど、あらゆるプロジェクトを自然言語で説明。",
+          "mockupLabel": "プロジェクト要件",
+          "mockupText": "ロゴ、カラー、SNSテンプレートを含むブランドアイデンティティパッケージが必要...",
+          "tags": ["ロゴデザイン", "ブランディング", "2週間"]
+        },
+        "step2": {
+          "title": "専門家が提案を提出",
+          "description": "AIがスキル、ポートフォリオ、経験に基づいてマッチスコアを計算。トップマッチの専門家がカスタマイズされた提案を提出。",
+          "matchScore": "AIマッチスコア",
+          "proposerName": "マリアデザインスタジオ",
+          "proposerStatus": "提案送信済み",
+          "proposerText": "ブランドデザイン・アイデンティティ8年の経験を活かして...",
+          "skills": "スキル",
+          "skillsMatch": "94%マッチ",
+          "experience": "経験",
+          "experienceYears": "8年以上",
+          "rate": "料金",
+          "inBudget": "予算内"
+        },
+        "step3": {
+          "title": "レビュー＆選択",
+          "description": "詳細なポートフォリオ、クライアントレビュー、作品サンプルを閲覧。採用前に専門家とチャット。",
+          "studioName": "クリエイティブスタジオ",
+          "studioType": "ブランド＆デザインエージェンシー • 150件以上のプロジェクト",
+          "skills": ["ロゴデザイン", "ブランドアイデンティティ", "UI/UX"],
+          "pricing": "¥375,000/プロジェクト • 対応可能",
+          "chat": "チャット"
+        },
+        "step4": {
+          "title": "コラボレーション＆構築",
+          "description": "組み込みのカンバンボード、時間追跡、ビデオ通話、ファイル共有を使用。すべてリアルタイムで同期。",
+          "columns": ["未着手", "進行中", "完了"],
+          "task": "タスク",
+          "hoursTracked": "今週32時間追跡済み"
+        },
+        "step5": {
+          "title": "14日間エスクロー保護",
+          "description": "承認または14日後の自動リリースまで資金を保持。紛争が発生した場合、7-2-2システムで迅速に解決。",
+          "escrowTitle": "14日間エスクロー",
+          "protected": "保護済み",
+          "timeline": {
+            "day0": "0日目",
+            "day0Event": "クライアントがマイルストーンに入金",
+            "day0Status": "認可済み",
+            "day10": "10日目",
+            "day10Event": "開発者が成果物を提出",
+            "day10Status": "レビュー中",
+            "day15": "15日目",
+            "day15Event": "クライアントが承認",
+            "day15Status": "リリース済み"
+          },
+          "autoRelease": "無応答の場合24日目に自動リリース • 7-2-2紛争解決",
+          "releasePayment": "支払いをリリース"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Team@Onceが選ばれる理由",
+      "subtitle": "開発人材の採用と管理をスマートに"
+    },
+    "comparison": {
+      "badge": "違いを見る",
+      "title": "Team@Onceが",
+      "titleHighlight": "競合に勝る理由",
+      "subtitle": "他にはできないことを実現するオールインワンプラットフォーム",
+      "feature": "機能",
+      "teamAtOnce": "Team@Once",
+      "allInOne": "オールインワン",
+      "marketplace": "マーケットプレイス",
+      "gigPlatform": "ギグプラットフォーム",
+      "eliteTalent": "エリート人材",
+      "full": "完全",
+      "basic": "基本",
+      "partial": "部分的",
+      "manual": "手動",
+      "features": {
+        "paymentProtection": "支払い保護",
+        "paymentProtectionValue": "14日自動リリース + 紛争解決",
+        "proofOfDelivery": "納品証明",
+        "proofOfDeliveryValue": "必須アップロード + 追跡",
+        "teamManagement": "チーム管理",
+        "teamManagementValue": "企業プロファイル + 割り当て",
+        "projectTemplates": "プロジェクトテンプレート",
+        "projectTemplatesValue": "95以上のテンプレート、14カテゴリー",
+        "disputeResolution": "紛争解決",
+        "disputeResolutionValue": "自動7-2-2タイムライン",
+        "aiFeatures": "AI機能",
+        "aiFeaturesValue": "マッチング + コスト見積もり",
+        "communicationHub": "コミュニケーションハブ",
+        "communicationHubValue": "チャット、ビデオ、ホワイトボード",
+        "milestoneWorkflow": "マイルストーンワークフロー",
+        "milestoneWorkflowValue": "提出 → レビュー → 承認",
+        "teamSupport": "個人/チーム/代理店対応"
+      }
+    },
+    "testimonials": {
+      "badge": "お客様の声",
+      "title": "クライアントと",
+      "titleHighlight": "開発者に信頼される",
+      "subtitle": "TeamAtOnceでの体験についてコミュニティの声をご覧ください",
+      "fallback": {
+        "testimonial1": {
+          "content": "AIマッチングで何週間もの探索時間を節約できました。プロジェクト要件を完璧に理解するReact開発者が見つかりました。",
+          "name": "ジェームズ・ミッチェル",
+          "company": "CEO、テックスタートアップ株式会社",
+          "role": "クライアント"
+        },
+        "testimonial2": {
+          "content": "フリーランス開発者として、TeamAtOnceは革命的でした。参加以来、収入が40%増加しました。",
+          "name": "サラ・チェン",
+          "title": "シニアReact開発者",
+          "role": "開発者"
+        },
+        "testimonial3": {
+          "content": "エスクロー決済システムで安心できます。すべてのビジネスに強くお勧めします！",
+          "name": "マイケル・ロドリゲス",
+          "company": "プロダクトマネージャー、FinanceApp",
+          "role": "クライアント"
+        }
+      }
+    },
+    "faq": {
+      "badge": "ご質問は？",
+      "title": "よくある",
+      "titleHighlight": "ご質問",
+      "subtitle": "TeamAtOnceについて知っておくべきこと。答えが見つからない場合はサポートチームにお問い合わせください。",
+      "stillHaveQuestions": "まだ質問がありますか？",
+      "items": {
+        "escrow": {
+          "question": "14日間エスクロー保護はどのように機能しますか？",
+          "answer": "マイルストーンに入金すると、Stripeが支払いを認可しますがまだ確定しません。開発者は「入金済み」ステータスを見て作業を開始します。提出後、14日間のレビュー期間があります。承認すると、支払いが確定してリリースされます（10%のプラットフォーム手数料を差し引いた後）。何もしなければ、14日後に自動的に支払いがリリースされ、クライアントが消えた場合でも開発者を保護します。"
+        },
+        "dispute": {
+          "question": "7-2-2紛争解決システムとは何ですか？",
+          "answer": "紛争が発生した場合：両当事者が証拠を提出する7日間の交渉期間、私たちがレビューして分割を決定する2日間の管理調停、そして2日間の執行期間があります。この自動化されたタイムラインにより、終わりのないやり取りなしに迅速で公正な解決が保証されます。証拠が必要です - 言い分だけでは判断しません。"
+        },
+        "templates": {
+          "question": "95以上のプロジェクトテンプレートとは何ですか？",
+          "answer": "14カテゴリーにわたる既製のプロジェクトテンプレートを提供しています：ビジネスアプリ（$15k-$80k）、Eコマース（$10k-$50k）、ヘルスケア（$20k-$100k）、AI/ML（$25k-$150k）など。各テンプレートには、デフォルトのマイルストーン、推奨技術スタック、タイムライン見積もり、要件チェックリストが含まれており、しっかりした基盤からスタートできます。"
+        },
+        "team": {
+          "question": "チーム管理はどのように機能しますか？",
+          "answer": "3つのアカウントタイプをサポートしています：個人開発者（個人フリーランサー）、小規模チーム（2-10人）、開発会社（フルエージェンシー）。チーム機能には、メンバーロール（オーナー、管理者、開発者、デザイナー、QA）、ワークロード追跡（視覚的なキャパシティインジケーター）、配分割合付きのプロジェクト割り当て、パフォーマンス指標が含まれます。"
+        },
+        "communication": {
+          "question": "どのようなコミュニケーションツールが含まれていますか？",
+          "answer": "コミュニケーションハブには以下が含まれています：ファイル添付とリアクション付きのリアルタイムチャット、画面共有と録画付きのビデオ会議、図表用のコラボレーションホワイトボード、タイムゾーン対応の会議スケジューラー、締め切り追跡用のプロジェクトカレンダー。すべて組み込み - 外部ツールは不要です。"
+        },
+        "bidding": {
+          "question": "入札システムはどのように機能しますか？",
+          "answer": "クライアントはチームを割り当てずにプロジェクトを投稿します。開発者はマーケットプレイスを閲覧し、カバーレター、提案費用、カスタムマイルストーン、チーム構成を含む提案を提出します。AIが技術スタックの重複に基づいてマッチスコアを計算します。クライアントは提案を比較して勝者を選択し、他の提案は自動的に却下され、プロジェクトはマーケットプレイスから削除されます。"
+        },
+        "proofOfDelivery": {
+          "question": "どのような納品証明が必要ですか？",
+          "answer": "開発者はマイルストーン提出時に成果物（コード、ファイル、スクリーンショット）をアップロードする必要があります。システムは提出タイムスタンプ、再提出回数、レビュー履歴を追跡します。これにより紛争時に両当事者を保護する証拠の追跡が作成されます - 「納品した」対「受け取っていない」という議論はもうありません。"
+        },
+        "fees": {
+          "question": "Team@Onceの手数料は？",
+          "answer": "成功した納品に対してのみ10%のプラットフォーム手数料を請求します。これは開発者への支払いがリリースされる際に差し引かれます。隠れた手数料、サブスクリプション費用、前払い料金はありません。未納品によるマイルストーンの返金の場合、どちらの当事者も手数料を支払いません。プロジェクトが成功した時だけ私たちは収益を得ます。"
+        }
+      }
+    },
+    "cta": {
+      "title": "次のプロジェクトを",
+      "titleLine2": "変革する準備はできましたか？",
+      "subtitle": "シームレスなコラボレーションと卓越した成果のためにTeam@Onceを信頼する何千もの企業と開発者に参加しましょう。",
+      "trustIndicators": {
+        "noCard": "クレジットカード不要",
+        "freeStart": "無料で始められます",
+        "cancel": "いつでもキャンセル可能"
+      }
+    },
+    "contact": {
+      "badge": "お問い合わせ",
+      "title": "ご質問は？",
+      "titleHighlight": "ぜひお聞かせください",
+      "subtitle": "以下のフォームにご記入ください。24時間以内にチームからご連絡いたします",
+      "form": {
+        "fullName": "氏名 *",
+        "fullNamePlaceholder": "山田太郎",
+        "email": "メールアドレス *",
+        "emailPlaceholder": "taro@example.com",
+        "subject": "件名 *",
+        "subjectPlaceholder": "どのようなご用件ですか？",
+        "message": "メッセージ *",
+        "messagePlaceholder": "プロジェクトやお問い合わせについて詳しくお聞かせください...",
+        "privacy": "このフォームを送信することで、",
+        "privacyPolicy": "プライバシーポリシー",
+        "and": "と",
+        "terms": "利用規約"
+      }
+    }
+  },
+  "footer": {
+    "description": "世界トップクラスの開発者を見つけ、雇用し、管理するためのオールインワンプラットフォーム。",
+    "copyright": "© {{year}} Team@Once. All rights reserved.",
+    "product": {
+      "title": "製品",
+      "features": "機能",
+      "pricing": "料金",
+      "howItWorks": "使い方",
+      "faq": "よくある質問"
+    },
+    "company": {
+      "title": "会社",
+      "about": "会社概要",
+      "blog": "ブログ",
+      "careers": "採用情報"
+    },
+    "legal": {
+      "title": "法的情報",
+      "privacy": "プライバシー",
+      "terms": "利用規約",
+      "cookiePolicy": "Cookieポリシー",
+      "gdpr": "GDPR"
+    }
+  },
+  "languageSwitcher": {
+    "language": "言語"
+  },
+  "auth": {
+    "login": {
+      "title": "サインイン",
+      "subtitle": "続けるには認証情報を入力してください",
+      "email": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "password": "パスワード",
+      "passwordPlaceholder": "パスワードを入力",
+      "forgotPassword": "パスワードをお忘れですか？",
+      "signIn": "サインイン",
+      "signingIn": "サインイン中...",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "signUp": "新規登録",
+      "accountBanned": "アカウント停止",
+      "orContinueWith": "または以下でログイン"
+    },
+    "signup": {
+      "title": "アカウントを作成",
+      "invitationTitle": "招待を承認",
+      "subtitle": "世界中のクライアントとセラーに参加しましょう",
+      "invitationSubtitle": "チームに参加するためにアカウントを作成してください",
+      "selectType": "次のアカウントで登録する：",
+      "client": "クライアント",
+      "clientDescription": "プロジェクトのために開発者を雇いたい",
+      "seller": "セラー",
+      "sellerDescription": "サービスを提供したい",
+      "clientFeatures": {
+        "feature1": "無制限のプロジェクト投稿",
+        "feature2": "AIによるチームマッチング",
+        "feature3": "安全なマイルストーン支払い"
+      },
+      "sellerFeatures": {
+        "feature1": "質の高いプロジェクトを見つける",
+        "feature2": "自分の料金を設定",
+        "feature3": "安全に報酬を受け取る"
+      },
+      "accountType": "アカウント",
+      "change": "変更",
+      "fullName": "氏名",
+      "fullNamePlaceholder": "山田太郎",
+      "email": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "password": "パスワード",
+      "passwordPlaceholder": "8文字以上",
+      "confirmPassword": "パスワード確認",
+      "confirmPasswordPlaceholder": "パスワードを再入力",
+      "termsAgreement": "以下に同意します",
+      "termsOfService": "利用規約",
+      "and": "と",
+      "privacyPolicy": "プライバシーポリシー",
+      "createAccount": "アカウント作成",
+      "creatingAccount": "アカウント作成中...",
+      "haveAccount": "すでにアカウントをお持ちですか？",
+      "signIn": "サインイン",
+      "invitationNotice": "チーム招待",
+      "invitationMessage": "チームへの招待を受けました。登録を完了して招待を承認してください。"
+    },
+    "forgotPassword": {
+      "title": "パスワードをお忘れですか？",
+      "subtitle": "ご心配なく！メールアドレスを入力すると、リセット手順をお送りします",
+      "email": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "sendResetLink": "リセットリンクを送信",
+      "sending": "送信中...",
+      "backToSignIn": "サインインに戻る",
+      "checkEmail": "メールをご確認ください",
+      "emailSentTo": "パスワードリセット手順を送信しました：",
+      "didntReceive": "メール内のリンクをクリックしてパスワードをリセットしてください。見つからない場合は迷惑メールフォルダをご確認ください。",
+      "resendEmail": "メールを再送信",
+      "needHelp": "お困りですか？",
+      "contactSupport": "サポートチームにお問い合わせください",
+      "dataSecure": "お客様のデータは",
+      "secure": "安全",
+      "withUs": "に保護されています"
+    },
+    "authSuccess": {
+      "title": "認証成功！",
+      "message": "ログインに成功しました。ダッシュボードにリダイレクトしています..."
+    },
+    "authError": {
+      "title": "認証失敗",
+      "tryAgain": "再試行",
+      "backToHome": "ホームに戻る"
+    },
+    "oauthCallback": {
+      "title": "サインインを完了しています...",
+      "message": "アカウントの設定を完了するまでお待ちください"
+    },
+    "errors": {
+      "emailRequired": "メールアドレスは必須です",
+      "emailInvalid": "メールアドレスが無効です",
+      "validEmail": "有効なメールアドレスを入力してください",
+      "passwordRequired": "パスワードは必須です",
+      "passwordLength": "パスワードは6文字以上である必要があります",
+      "passwordMin8": "パスワードは8文字以上である必要があります",
+      "confirmPasswordRequired": "パスワードの確認を入力してください",
+      "passwordsMismatch": "パスワードが一致しません",
+      "nameRequired": "氏名は必須です",
+      "nameMin": "氏名は2文字以上である必要があります",
+      "selectAccountType": "アカウントタイプを選択してください",
+      "acceptTerms": "利用規約に同意する必要があります",
+      "resetFailed": "リセットメールの送信に失敗しました"
+    },
+    "social": {
+      "continueWith": "で続ける",
+      "google": "Google",
+      "github": "GitHub",
+      "divider": "または"
+    }
+  }
+}

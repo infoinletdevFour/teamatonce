@@ -1,0 +1,108 @@
+services:
+  teamatoncefrontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.local
+    container_name: teamatoncefrontend
+    env_file:
+      - ./frontend/.env.local
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:7045/api
+      - NEXT_PUBLIC_SOCKET_URL=http://localhost:7045
+      - INTERNAL_API_URL=http://teamatoncebackend:7045/api
+      - INTERNAL_SOCKET_URL=http://teamatoncebackend:7045
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    networks:
+      - app-network
+
+  teamatoncepostgres:
+    image: postgres:15-alpine
+    container_name: teamatoncepostgres
+    environment:
+      POSTGRES_USER: appatonceuser
+      POSTGRES_PASSWORD: ShokPasS2024
+      POSTGRES_DB: teamatoncedb
+    ports:
+      - "5462:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - app-network
+
+  teamatoncerabbitmq:
+    image: rabbitmq:3-management
+    container_name: teamatoncerabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=admin
+      - RABBITMQ_DEFAULT_PASS=admin
+    ports:
+      - "6673:6673" # AMQP protocol port
+      - "16673:16673" # Management UI port
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - app-network
+
+  teamatonceqdrant:
+    image: qdrant/qdrant
+    container_name: teamatonceqdrant
+    ports:
+      - "8333:8333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - app-network
+
+  teamatoncebackend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: teamatoncebackend
+    env_file:
+      - ./backend/.env.local
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - "7045:7045"
+    depends_on:
+      teamatoncepostgres:
+        condition: service_started
+      teamatonceqdrant:
+        condition: service_started
+      teamatonceredis:
+        condition: service_started
+      teamatoncerabbitmq:
+        condition: service_started
+    networks:
+      - app-network
+
+  teamatonceredis:
+    image: redis:alpine
+    container_name: teamatonceredis
+    command: redis-server --requirepass ShokPasS2024
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - app-network
+
+volumes:
+  workspace_data:
+    driver: local
+  postgres_data:
+  rabbitmq_data:
+  qdrant_data:
+  redis_data:
+    driver: local
+
+networks:
+  app-network:
+    name: app-network
+    external: false # This tells Compose to create the network
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.host_binding_ipv4: "0.0.0.0"

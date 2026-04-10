@@ -1,0 +1,444 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "search": "Search",
+    "getStartedFree": "Get Started Free",
+    "viewPricing": "View Pricing",
+    "seeHowItWorks": "See How It Works",
+    "learnMore": "Learn More",
+    "sendMessage": "Send Message",
+    "contactSupport": "Contact Support"
+  },
+  "header": {
+    "findTalent": "Find Talent",
+    "findJobs": "Find Jobs",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "login": "Login"
+  },
+  "landing": {
+    "hero": {
+      "badge": {
+        "talent": "10,000+ Expert Developers Ready to Work",
+        "jobs": "5,000+ Jobs Available from Top Companies"
+      },
+      "title": {
+        "talent": "Hire Expert Developers",
+        "talentHighlight": "For Any Project",
+        "jobs": "Find Your Dream Job",
+        "jobsHighlight": "Work On Amazing Projects"
+      },
+      "subtitle": {
+        "talent": "Connect with top-tier developers worldwide. AI-powered matching in minutes.",
+        "jobs": "Discover opportunities from leading companies. AI-powered job matching."
+      },
+      "searchPlaceholder": {
+        "talent": "Search \"React developer\", \"Mobile app\", \"AI engineer\"...",
+        "jobs": "Search \"Frontend job\", \"Remote position\", \"Full-time\"..."
+      },
+      "popular": "Popular:",
+      "popularTalent": ["React Developer", "Mobile App", "AI/ML", "Full Stack", "DevOps", "UI/UX"],
+      "popularJobs": ["Remote Jobs", "Frontend", "Backend", "Full-time", "Contract", "Part-time"],
+      "trustBadges": {
+        "secure": "Secure & Verified",
+        "noCard": "No Credit Card Required",
+        "aiPowered": "AI-Powered Matching"
+      }
+    },
+    "categories": {
+      "badge": "Explore Talent",
+      "title": "Browse by Category",
+      "subtitle": "Find the perfect developer for your project needs across various specializations",
+      "viewAll": "View All Categories"
+    },
+    "featuredDevelopers": {
+      "badge": "Top Talent",
+      "title": "Top Rated Sellers",
+      "subtitle": "Handpicked sellers with proven track records, ready to bring your ideas to life",
+      "viewAll": "View All Sellers"
+    },
+    "featuredJobs": {
+      "badge": "Hot Jobs",
+      "title": "Featured Job Opportunities",
+      "subtitle": "Discover exciting opportunities from top companies looking for talented developers",
+      "viewAll": "View All Jobs"
+    },
+    "features": {
+      "badge": "Why Choose Us",
+      "title": "Everything You Need",
+      "titleHighlight": "In One Platform",
+      "subtitle": "Powerful features designed to make hiring and working seamless",
+      "items": {
+        "escrow": {
+          "title": "14-Day Escrow Protection",
+          "description": "Funds held securely until delivery. Auto-release after 14 days protects both parties."
+        },
+        "aiMatching": {
+          "title": "AI-Powered Matching",
+          "description": "Smart bidding system connects clients with perfect teams based on 50+ factors."
+        },
+        "templates": {
+          "title": "95+ Project Templates",
+          "description": "Pre-built workflows across 14 categories with milestones, costs, and requirements."
+        },
+        "dispute": {
+          "title": "7-2-2 Dispute Resolution",
+          "description": "7 days negotiation, 2 days mediation, 2 days execution. Fast, fair resolutions."
+        },
+        "communication": {
+          "title": "Communication Hub",
+          "description": "Integrated chat, video calls, whiteboard, and meeting scheduler in one place."
+        },
+        "teamTypes": {
+          "title": "Solo, Team & Agency",
+          "description": "Flexible company profiles for individuals, small teams, or full agencies."
+        },
+        "proofOfDelivery": {
+          "title": "Proof-of-Delivery",
+          "description": "Required file uploads and timeline tracking ensure accountability."
+        },
+        "pricing": {
+          "title": "Transparent Pricing",
+          "description": "Only 10% platform fee on successful delivery. No hidden costs."
+        }
+      }
+    },
+    "howItWorks": {
+      "badge": "Simple Process",
+      "title": "From Idea to Launch",
+      "titleHighlight": "In 5 Simple Steps",
+      "subtitle": "Our AI-powered platform guides you through every stage of your project",
+      "steps": {
+        "step1": {
+          "title": "Post Your Project",
+          "description": "Describe any project in natural language - design, marketing, writing, development, video, or business consulting.",
+          "mockupLabel": "Project Requirements",
+          "mockupText": "Need a brand identity package with logo, colors, and social media templates...",
+          "tags": ["Logo Design", "Branding", "2 weeks"]
+        },
+        "step2": {
+          "title": "Experts Submit Proposals",
+          "description": "AI calculates match scores based on skills, portfolio, and experience. Top-matched professionals submit tailored proposals.",
+          "matchScore": "AI Match Score",
+          "proposerName": "Maria Design Studio",
+          "proposerStatus": "Proposal Sent",
+          "proposerText": "Based on my 8 years in brand design & identity...",
+          "skills": "Skills",
+          "skillsMatch": "94% match",
+          "experience": "Experience",
+          "experienceYears": "8+ years",
+          "rate": "Rate",
+          "inBudget": "In budget"
+        },
+        "step3": {
+          "title": "Review & Select",
+          "description": "Browse detailed portfolios, client reviews, and work samples. Chat with professionals before hiring.",
+          "studioName": "Creative Studio",
+          "studioType": "Brand & Design Agency • 150+ projects",
+          "skills": ["Logo Design", "Brand Identity", "UI/UX"],
+          "pricing": "$2,500/project • Available",
+          "chat": "Chat"
+        },
+        "step4": {
+          "title": "Collaborate & Build",
+          "description": "Use built-in Kanban boards, time tracking, video calls, and file sharing. Everything synced in real-time.",
+          "columns": ["To Do", "Doing", "Done"],
+          "task": "Task",
+          "hoursTracked": "32h tracked this week"
+        },
+        "step5": {
+          "title": "14-Day Escrow Protection",
+          "description": "Funds held until approval or auto-release after 14 days. If disputes arise, our 7-2-2 system resolves them fast.",
+          "escrowTitle": "14-Day Escrow",
+          "protected": "Protected",
+          "timeline": {
+            "day0": "Day 0",
+            "day0Event": "Client funds milestone",
+            "day0Status": "authorized",
+            "day10": "Day 10",
+            "day10Event": "Developer submits work",
+            "day10Status": "review",
+            "day15": "Day 15",
+            "day15Event": "Client approves",
+            "day15Status": "released"
+          },
+          "autoRelease": "Auto-releases Day 24 if no response • 7-2-2 dispute resolution",
+          "releasePayment": "Release Payment"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Team@Once",
+      "subtitle": "The smart way to hire and manage development talent"
+    },
+    "comparison": {
+      "badge": "See The Difference",
+      "title": "Why Team@Once",
+      "titleHighlight": "Beats The Competition",
+      "subtitle": "We've built the all-in-one platform that does what others can't",
+      "feature": "Feature",
+      "teamAtOnce": "Team@Once",
+      "allInOne": "All-in-One",
+      "marketplace": "Marketplace",
+      "gigPlatform": "Gig Platform",
+      "eliteTalent": "Elite Talent",
+      "full": "Full",
+      "basic": "Basic",
+      "partial": "Partial",
+      "manual": "Manual",
+      "features": {
+        "paymentProtection": "Payment Protection",
+        "paymentProtectionValue": "14-day auto-release + dispute",
+        "proofOfDelivery": "Proof of Delivery",
+        "proofOfDeliveryValue": "Required uploads + tracking",
+        "teamManagement": "Team Management",
+        "teamManagementValue": "Company profiles + assignments",
+        "projectTemplates": "Project Templates",
+        "projectTemplatesValue": "95+ templates, 14 categories",
+        "disputeResolution": "Dispute Resolution",
+        "disputeResolutionValue": "Automated 7-2-2 timeline",
+        "aiFeatures": "AI Features",
+        "aiFeaturesValue": "Matching + cost estimation",
+        "communicationHub": "Communication Hub",
+        "communicationHubValue": "Chat, video, whiteboard",
+        "milestoneWorkflow": "Milestone Workflow",
+        "milestoneWorkflowValue": "Submit → Review → Approve",
+        "teamSupport": "Solo/Team/Agency Support"
+      }
+    },
+    "testimonials": {
+      "badge": "What People Say",
+      "title": "Trusted by Clients",
+      "titleHighlight": "& Developers Alike",
+      "subtitle": "See what our community has to say about their experience with TeamAtOnce",
+      "fallback": {
+        "testimonial1": {
+          "content": "The AI matching saved us weeks of searching. We found a React developer who understood our project requirements perfectly.",
+          "name": "James Mitchell",
+          "company": "CEO, TechStartup Inc",
+          "role": "Client"
+        },
+        "testimonial2": {
+          "content": "As a freelance developer, TeamAtOnce has been a game-changer. I've increased my income by 40% since joining.",
+          "name": "Sarah Chen",
+          "title": "Senior React Developer",
+          "role": "Developer"
+        },
+        "testimonial3": {
+          "content": "The escrow payment system gives me peace of mind. Highly recommend for any business!",
+          "name": "Michael Rodriguez",
+          "company": "Product Manager, FinanceApp",
+          "role": "Client"
+        }
+      }
+    },
+    "faq": {
+      "badge": "Got Questions?",
+      "title": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "Everything you need to know about TeamAtOnce. Can't find the answer? Contact our support team.",
+      "stillHaveQuestions": "Still have questions?",
+      "items": {
+        "escrow": {
+          "question": "How does the 14-day escrow protection work?",
+          "answer": "When you fund a milestone, Stripe authorizes the payment but doesn't capture it yet. The developer sees 'Funded' status and begins work. After submission, you have 14 days to review. If you approve, payment is captured and released (minus 10% platform fee). If you do nothing, payment auto-releases after 14 days - protecting developers from clients who disappear."
+        },
+        "dispute": {
+          "question": "What is the 7-2-2 dispute resolution system?",
+          "answer": "If a dispute occurs: 7 days for negotiation where both parties submit evidence, 2 days for admin mediation where we review and decide the split, and 2 days for execution. This automated timeline ensures fast, fair resolutions without endless back-and-forth. Evidence is required - we don't rely on he-said-she-said."
+        },
+        "templates": {
+          "question": "What are the 95+ project templates?",
+          "answer": "We provide pre-built project templates across 14 categories: Business Apps ($15k-$80k), E-Commerce ($10k-$50k), Healthcare ($20k-$100k), AI/ML ($25k-$150k), and more. Each template includes default milestones, tech stack recommendations, timeline estimates, and requirement checklists - so you start with a solid foundation."
+        },
+        "team": {
+          "question": "How does team management work?",
+          "answer": "We support three account types: Solo Developer (individual freelancer), Small Team (2-10 members), and Development Company (full agency). Team features include member roles (Owner, Admin, Developer, Designer, QA), workload tracking (visual capacity indicators), project assignments with allocation percentages, and performance metrics."
+        },
+        "communication": {
+          "question": "What communication tools are included?",
+          "answer": "Our Communication Hub includes: Real-time chat with file attachments and reactions, video conferencing with screen sharing and recording, collaborative whiteboard for diagrams, meeting scheduler with timezone support, and project calendar for deadline tracking. All built-in - no need for external tools."
+        },
+        "bidding": {
+          "question": "How does the bidding system work?",
+          "answer": "Clients post projects without assigning a team. Developers browse the marketplace and submit proposals with cover letters, proposed costs, custom milestones, and team composition. AI calculates match scores based on tech stack overlap. Clients compare proposals and select a winner - other proposals are auto-rejected and the project leaves the marketplace."
+        },
+        "proofOfDelivery": {
+          "question": "What proof-of-delivery is required?",
+          "answer": "Developers must upload deliverables (code, files, screenshots) when submitting milestones. The system tracks submission timestamps, resubmission counts, and review history. This creates an evidence trail that protects both parties in case of disputes - no more 'I delivered it' vs 'I never received it' arguments."
+        },
+        "fees": {
+          "question": "What fees does Team@Once charge?",
+          "answer": "We charge 10% platform fee on successful deliveries only. This is deducted when payment is released to the developer. No hidden fees, no subscription costs, no upfront charges. If a milestone is refunded due to non-delivery, neither party pays any fee. We only make money when projects succeed."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform",
+      "titleLine2": "Your Next Project?",
+      "subtitle": "Join thousands of companies and developers who trust Team@Once for seamless collaboration and exceptional results.",
+      "trustIndicators": {
+        "noCard": "No credit card required",
+        "freeStart": "Free to get started",
+        "cancel": "Cancel anytime"
+      }
+    },
+    "contact": {
+      "badge": "Get In Touch",
+      "title": "Have Questions?",
+      "titleHighlight": "We'd Love to Hear From You",
+      "subtitle": "Fill out the form below and our team will get back to you within 24 hours",
+      "form": {
+        "fullName": "Full Name *",
+        "fullNamePlaceholder": "John Doe",
+        "email": "Email Address *",
+        "emailPlaceholder": "john@example.com",
+        "subject": "Subject *",
+        "subjectPlaceholder": "How can we help you?",
+        "message": "Message *",
+        "messagePlaceholder": "Tell us more about your project or inquiry...",
+        "privacy": "By submitting this form, you agree to our",
+        "privacyPolicy": "Privacy Policy",
+        "and": "and",
+        "terms": "Terms of Service"
+      }
+    }
+  },
+  "footer": {
+    "description": "The all-in-one platform for finding, hiring, and managing world-class developers.",
+    "copyright": "© {{year}} Team@Once. All rights reserved.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "pricing": "Pricing",
+      "howItWorks": "How It Works",
+      "faq": "FAQ"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "blog": "Blog",
+      "careers": "Careers"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "cookiePolicy": "Cookie Policy",
+      "gdpr": "GDPR"
+    }
+  },
+  "languageSwitcher": {
+    "language": "Language"
+  },
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Enter your credentials to continue",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "forgotPassword": "Forgot password?",
+      "signIn": "Sign In",
+      "signingIn": "Signing In...",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign Up",
+      "accountBanned": "Account Banned",
+      "orContinueWith": "or continue with"
+    },
+    "signup": {
+      "title": "Create Your Account",
+      "invitationTitle": "Accept Invitation",
+      "subtitle": "Join thousands of clients and sellers worldwide",
+      "invitationSubtitle": "Create an account to join the team",
+      "selectType": "I want to sign up as a:",
+      "client": "Client",
+      "clientDescription": "I want to hire developers for my projects",
+      "seller": "Seller",
+      "sellerDescription": "I want to offer my services",
+      "clientFeatures": {
+        "feature1": "Post unlimited projects",
+        "feature2": "AI-powered team matching",
+        "feature3": "Secure milestone payments"
+      },
+      "sellerFeatures": {
+        "feature1": "Find quality projects",
+        "feature2": "Set your own rates",
+        "feature3": "Get paid securely"
+      },
+      "accountType": "Account",
+      "change": "Change",
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "password": "Password",
+      "passwordPlaceholder": "At least 8 characters",
+      "confirmPassword": "Confirm Password",
+      "confirmPasswordPlaceholder": "Re-enter your password",
+      "termsAgreement": "I agree to the",
+      "termsOfService": "Terms of Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy",
+      "createAccount": "Create Account",
+      "creatingAccount": "Creating Account...",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign In",
+      "invitationNotice": "Team Invitation",
+      "invitationMessage": "You've been invited to join a team. Complete your registration to accept the invitation."
+    },
+    "forgotPassword": {
+      "title": "Forgot Password?",
+      "subtitle": "No worries! Enter your email and we'll send you reset instructions",
+      "email": "Email Address",
+      "emailPlaceholder": "you@example.com",
+      "sendResetLink": "Send Reset Link",
+      "sending": "Sending...",
+      "backToSignIn": "Back to Sign In",
+      "checkEmail": "Check Your Email",
+      "emailSentTo": "We've sent password reset instructions to:",
+      "didntReceive": "Click the link in the email to reset your password. If you don't see it, check your spam folder.",
+      "resendEmail": "Resend Email",
+      "needHelp": "Need help?",
+      "contactSupport": "Contact our support team at",
+      "dataSecure": "Your data is",
+      "secure": "secure",
+      "withUs": "with us"
+    },
+    "authSuccess": {
+      "title": "Authentication Successful!",
+      "message": "You have been successfully logged in. Redirecting to your dashboard..."
+    },
+    "authError": {
+      "title": "Authentication Failed",
+      "tryAgain": "Try Again",
+      "backToHome": "Back to Home"
+    },
+    "oauthCallback": {
+      "title": "Completing sign in...",
+      "message": "Please wait while we finish setting up your account"
+    },
+    "errors": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Email is invalid",
+      "validEmail": "Please enter a valid email address",
+      "passwordRequired": "Password is required",
+      "passwordLength": "Password must be at least 6 characters",
+      "passwordMin8": "Password must be at least 8 characters",
+      "confirmPasswordRequired": "Please confirm your password",
+      "passwordsMismatch": "Passwords do not match",
+      "nameRequired": "Name is required",
+      "nameMin": "Name must be at least 2 characters",
+      "selectAccountType": "Please select account type",
+      "acceptTerms": "You must accept the terms and conditions",
+      "resetFailed": "Failed to send reset email"
+    },
+    "social": {
+      "continueWith": "Continue with",
+      "google": "Google",
+      "github": "GitHub",
+      "divider": "or"
+    }
+  }
+}

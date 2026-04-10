@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{subject}}</title>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333333; background-color: #f4f7f9;">
+    <div style="max-width: 600px; margin: 0 auto; background-color: #ffffff;">
+        <!-- Header -->
+        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 30px; text-align: center;">
+            <a href="{{platformUrl}}" style="font-size: 28px; font-weight: bold; color: #ffffff; text-decoration: none; letter-spacing: -1px;">Team@Once</a>
+            <p style="color: rgba(255,255,255,0.85); font-size: 14px; margin: 8px 0 0 0;">AI-Driven Development Platform</p>
+        </div>
+
+        <!-- Body -->
+        <div style="padding: 40px 30px;">
+            <!-- Greeting -->
+            <p style="font-size: 18px; color: #333333; margin-bottom: 10px;">
+                <strong>Hi {{name}},</strong>
+            </p>
+
+            <p style="color: #555555; font-size: 16px; line-height: 1.8;">
+                We came across your impressive profile and wanted to reach out. Your expertise in <strong>{{skills}}</strong> caught our attention, and we think you'd be a great fit for exciting projects on our platform.
+            </p>
+
+            <!-- Skills Highlight -->
+            <div style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 25px; border-radius: 12px; margin: 25px 0;">
+                <h3 style="color: #333333; margin-top: 0; margin-bottom: 15px;">What We Noticed</h3>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                        <td style="padding: 8px 0; color: #555555; font-size: 14px;">
+                            <strong style="color: #667eea;">Skills:</strong> {{skills}}
+                        </td>
+                    </tr>
+                    {{#if location}}
+                    <tr>
+                        <td style="padding: 8px 0; color: #555555; font-size: 14px;">
+                            <strong style="color: #667eea;">Location:</strong> {{location}}
+                        </td>
+                    </tr>
+                    {{/if}}
+                    {{#if primaryRole}}
+                    <tr>
+                        <td style="padding: 8px 0; color: #555555; font-size: 14px;">
+                            <strong style="color: #667eea;">Role:</strong> {{primaryRole}}
+                        </td>
+                    </tr>
+                    {{/if}}
+                </table>
+            </div>
+
+            <!-- Value Proposition -->
+            <p style="color: #555555; font-size: 16px; line-height: 1.8;">
+                Team@Once connects top developers like you with clients who need your exact skill set. Here's what you get:
+            </p>
+
+            <div style="margin: 20px 0;">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                        <td style="padding: 10px 0; color: #555555; font-size: 15px;">
+                            &#10003; <strong>Quality projects</strong> matched to your skills
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 0; color: #555555; font-size: 15px;">
+                            &#10003; <strong>Secure milestone-based payments</strong> with escrow protection
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 0; color: #555555; font-size: 15px;">
+                            &#10003; <strong>Built-in collaboration tools</strong> (chat, video, whiteboard)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 10px 0; color: #555555; font-size: 15px;">
+                            &#10003; <strong>AI-powered project management</strong> and estimation
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- CTA Button -->
+            <div style="text-align: center; margin: 35px 0;">
+                <a href="{{platformUrl}}/register?ref=outreach" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #ffffff; padding: 16px 40px; text-decoration: none; border-radius: 12px; font-weight: 600; font-size: 16px; box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);">
+                    Join Team@Once
+                </a>
+            </div>
+
+            <p style="color: #999999; font-size: 14px; text-align: center;">
+                No commitment required. Create your profile and explore available projects.
+            </p>
+
+            <div style="height: 1px; background: linear-gradient(90deg, transparent, #e9ecef, transparent); margin: 30px 0;"></div>
+
+            <p style="color: #555555; font-size: 14px; line-height: 1.6;">
+                If you have any questions, simply reply to this email. We're happy to chat.
+            </p>
+
+            <p style="color: #555555; font-size: 14px;">
+                Best regards,<br>
+                <strong>The Team@Once Team</strong>
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div style="background: #f8f9fa; padding: 30px; text-align: center; border-top: 1px solid #e9ecef;">
+            <p style="color: #6c757d; font-size: 14px; margin: 10px 0;">
+                <a href="{{platformUrl}}/about" style="color: #667eea; text-decoration: none; margin: 0 10px;">About</a>
+                <a href="{{platformUrl}}/privacy" style="color: #667eea; text-decoration: none; margin: 0 10px;">Privacy</a>
+                <a href="{{platformUrl}}/terms" style="color: #667eea; text-decoration: none; margin: 0 10px;">Terms</a>
+            </p>
+
+            <div style="height: 1px; background: linear-gradient(90deg, transparent, #e9ecef, transparent); margin: 20px 0;"></div>
+
+            <p style="color: #999999; font-size: 12px; margin: 10px 0;">
+                You received this email because your public developer profile was found via {{sources}}.
+                We respect your privacy and will not share your information.
+            </p>
+
+            <p style="color: #999999; font-size: 12px; margin: 15px 0;">
+                <a href="{{unsubscribeUrl}}" style="color: #999999; text-decoration: underline;">Unsubscribe</a>
+                from future emails
+            </p>
+
+            <p style="color: #999999; font-size: 11px; margin: 10px 0;">
+                Team@Once Inc. | AI-Driven Development Outsourcing Platform
+            </p>
+        </div>
+    </div>
+
+    <!-- Tracking Pixel -->
+    {{trackingPixel}}
+</body>
+</html>

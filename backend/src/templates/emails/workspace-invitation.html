@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Invitation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f4f7f9;
+        }
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+        }
+        .email-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 40px 30px;
+            text-align: center;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffffff;
+            text-decoration: none;
+            letter-spacing: -1px;
+        }
+        .email-body {
+            padding: 40px 30px;
+        }
+        .invitation-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 30px 0;
+            color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .company-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .company-logo {
+            width: 60px;
+            height: 60px;
+            border-radius: 12px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .company-details h2 {
+            margin: 0 0 5px 0;
+            font-size: 24px;
+            color: #ffffff;
+        }
+        .company-details p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+        .role-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-top: 15px;
+            backdrop-filter: blur(10px);
+        }
+        .greeting {
+            font-size: 18px;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        .message-section {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 8px;
+        }
+        .message-label {
+            font-size: 12px;
+            text-transform: uppercase;
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: 0.5px;
+        }
+        .message-content {
+            color: #555555;
+            font-style: italic;
+            line-height: 1.6;
+        }
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff !important;
+            padding: 16px 40px;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: transform 0.2s;
+        }
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.5);
+        }
+        .info-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+        }
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+        .info-icon {
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        .info-text {
+            flex: 1;
+        }
+        .info-label {
+            font-size: 12px;
+            color: #666666;
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        .info-value {
+            font-size: 14px;
+            color: #333333;
+            font-weight: 500;
+        }
+        .expiry-notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin: 25px 0;
+            display: flex;
+            align-items: center;
+        }
+        .expiry-icon {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+        .expiry-text {
+            color: #856404;
+            font-size: 14px;
+        }
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-top: 1px solid #e9ecef;
+        }
+        .footer-text {
+            color: #6c757d;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .footer-links {
+            margin: 20px 0;
+        }
+        .footer-link {
+            color: #667eea;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 14px;
+        }
+        .social-links {
+            margin-top: 20px;
+        }
+        .social-link {
+            display: inline-block;
+            width: 36px;
+            height: 36px;
+            background: #667eea;
+            border-radius: 50%;
+            margin: 0 5px;
+            line-height: 36px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #e9ecef, transparent);
+            margin: 30px 0;
+        }
+        @media only screen and (max-width: 600px) {
+            .email-body {
+                padding: 30px 20px;
+            }
+            .invitation-card {
+                padding: 20px;
+            }
+            .company-info {
+                flex-direction: column;
+                text-align: center;
+            }
+            .company-logo {
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+            .cta-button {
+                display: block;
+                padding: 14px 30px;
+            }
+            .info-section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="email-header">
+            <a href="{{frontendUrl}}" class="logo">Team@Once</a>
+        </div>
+
+        <!-- Body -->
+        <div class="email-body">
+            <!-- Invitation Card -->
+            <div class="invitation-card">
+                <div class="company-info">
+                    {{#if companyLogo}}
+                    <img src="{{companyLogo}}" alt="{{companyName}}" class="company-logo" style="width: 60px; height: 60px; border-radius: 12px; object-fit: cover;">
+                    {{else}}
+                    <div class="company-logo">
+                        {{companyInitial}}
+                    </div>
+                    {{/if}}
+                    <div class="company-details">
+                        <h2>{{companyName}}</h2>
+                        <p>{{accountType}} Account</p>
+                    </div>
+                </div>
+                <div class="role-badge">
+                    🎯 Role: {{role}}
+                </div>
+            </div>
+
+            <!-- Greeting -->
+            <div class="greeting">
+                <strong>Hi {{inviteeName}},</strong>
+            </div>
+
+            <p style="color: #555555; font-size: 16px; line-height: 1.8;">
+                You've been invited by <strong>{{inviterName}}</strong> to join <strong>{{companyName}}</strong> on Team@Once.
+            </p>
+
+            {{#if message}}
+            <!-- Personal Message -->
+            <div class="message-section">
+                <div class="message-label">Personal Message from {{inviterName}}</div>
+                <div class="message-content">
+                    "{{message}}"
+                </div>
+            </div>
+            {{/if}}
+
+            <!-- Call to Action -->
+            <div style="text-align: center;">
+                <a href="{{inviteUrl}}" class="cta-button">
+                    Accept Invitation →
+                </a>
+            </div>
+
+            <!-- Information Section -->
+            <div class="info-section">
+                <div class="info-item">
+                    <div class="info-icon">
+                        <span style="color: white; font-size: 20px;">👤</span>
+                    </div>
+                    <div class="info-text">
+                        <div class="info-label">Your Role</div>
+                        <div class="info-value">{{role}}</div>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <span style="color: white; font-size: 20px;">✉️</span>
+                    </div>
+                    <div class="info-text">
+                        <div class="info-label">Email</div>
+                        <div class="info-value">{{inviteeEmail}}</div>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">
+                        <span style="color: white; font-size: 20px;">👔</span>
+                    </div>
+                    <div class="info-text">
+                        <div class="info-label">Invited By</div>
+                        <div class="info-value">{{inviterName}}</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expiry Notice -->
+            <div class="expiry-notice">
+                <div class="expiry-icon">⏰</div>
+                <div class="expiry-text">
+                    <strong>Time Sensitive:</strong> This invitation will expire in {{expiryDays}} days ({{expiryDate}}).
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- What Happens Next -->
+            <div style="margin: 30px 0;">
+                <h3 style="color: #333333; margin-bottom: 15px;">What happens next?</h3>
+                <ol style="color: #555555; line-height: 1.8; padding-left: 20px;">
+                    <li><strong>Click the button above</strong> to review and accept the invitation</li>
+                    <li><strong>Create your account</strong> or sign in if you already have one</li>
+                    <li><strong>Join the team</strong> and start collaborating immediately</li>
+                </ol>
+            </div>
+
+            <div class="divider"></div>
+
+            <!-- Why Team@Once -->
+            <div style="margin: 30px 0; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 25px; border-radius: 12px;">
+                <h3 style="color: #333333; margin-top: 0;">Why Team@Once?</h3>
+                <ul style="color: #555555; line-height: 1.8; padding-left: 20px; margin-bottom: 0;">
+                    <li><strong>Real-time collaboration</strong> - Chat, video calls, and whiteboard</li>
+                    <li><strong>Project transparency</strong> - Track progress and milestones</li>
+                    <li><strong>Secure payments</strong> - Milestone-based payment protection</li>
+                    <li><strong>AI-powered tools</strong> - Smart project estimation and matching</li>
+                </ul>
+            </div>
+
+            <!-- Help Section -->
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; text-align: center; margin-top: 30px;">
+                <p style="color: #666666; margin: 0; font-size: 14px;">
+                    Need help? <a href="{{frontendUrl}}/contact" style="color: #667eea; text-decoration: none;">Contact our support team</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p class="footer-text">
+                If you didn't expect this invitation, you can safely ignore this email.
+            </p>
+
+            <div class="footer-links">
+                <a href="{{frontendUrl}}/about" class="footer-link">About Us</a>
+                <a href="{{frontendUrl}}/privacy" class="footer-link">Privacy Policy</a>
+                <a href="{{frontendUrl}}/terms" class="footer-link">Terms of Service</a>
+            </div>
+
+            <div class="divider"></div>
+
+            <p class="footer-text">
+                <strong>Team@Once</strong><br>
+                AI-Driven Development Outsourcing Platform
+            </p>
+
+            <p class="footer-text" style="font-size: 12px; color: #999999;">
+                © {{year}} Team@Once. All rights reserved.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

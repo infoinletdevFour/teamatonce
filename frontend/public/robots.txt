@@ -1,0 +1,109 @@
+# Team@Once Robots.txt
+# This file controls which parts of the site search engines can crawl
+
+# Default rule for all crawlers
+User-agent: *
+
+# ========== ALLOWED PUBLIC PAGES ==========
+# These pages are open for indexing
+Allow: /
+Allow: /browse-talent
+Allow: /browse-talent/*
+Allow: /browse-jobs
+Allow: /search
+Allow: /pricing
+Allow: /help
+Allow: /gigs
+Allow: /gigs/*
+Allow: /developer/*/
+Allow: /job/*/
+Allow: /user/*/
+Allow: /auth/login
+Allow: /auth/signup
+Allow: /privacy
+Allow: /terms
+Allow: /cookies
+
+# ========== DISALLOW AUTHENTICATED ROUTES ==========
+# Block all company-specific and authenticated areas
+
+# Company-level routes (all protected)
+Disallow: /company/
+Disallow: /select-company
+
+# Role-specific routes (all protected)
+Disallow: /client/
+Disallow: /seller/
+Disallow: /developer/browse-projects
+Disallow: /developer/dashboard
+Disallow: /developer/projects
+Disallow: /developer/team
+Disallow: /developer/messages
+Disallow: /developer/calendar
+Disallow: /developer/performance
+Disallow: /developer/settings
+Disallow: /developer/profile
+Disallow: /developer/gigs/create
+Disallow: /developer/hire-requests
+
+# Project management routes (all protected)
+Disallow: /project/
+
+# Admin routes (all protected)
+Disallow: /admin/
+
+# Authentication routes (exclude OAuth callbacks and internal flows)
+Disallow: /auth/callback
+Disallow: /auth/success
+Disallow: /auth/error
+Disallow: /auth/forgot-password
+
+# Onboarding routes (protected)
+Disallow: /onboarding/
+
+# Settings routes (all protected)
+Disallow: /settings/
+
+# Payment routes (all protected)
+Disallow: /payment/
+
+# Contract routes (all protected)
+Disallow: /contract/
+
+# Invitation routes (sensitive)
+Disallow: /invitation/
+Disallow: /invite/
+
+# Account routes (protected)
+Disallow: /account/
+
+# Stripe callbacks (internal)
+Disallow: /developer/stripe/
+
+# Legacy redirects
+Disallow: /landing-old
+
+# API endpoints (if served from same domain)
+Disallow: /api/
+
+# ========== CRAWL RATE ==========
+# Be polite with crawl rate (adjust based on your server capacity)
+# Crawl-delay: 1
+
+# ========== SITEMAP LOCATION ==========
+Sitemap: https://teamatonce.com/sitemap.xml
+
+# ========== ADDITIONAL NOTES ==========
+# For Google Search Console:
+# - Verify your property at https://search.google.com/search-console
+# - Submit your sitemap
+# - Monitor indexing status and search performance
+#
+# For better SEO performance:
+# 1. Ensure all public pages have proper meta tags (title, description)
+# 2. Use structured data (JSON-LD) for developers, jobs, and gigs
+# 3. Implement canonical URLs for duplicate content
+# 4. Add Open Graph and Twitter Card meta tags (already done in index.html)
+# 5. Consider implementing a dynamic sitemap generator for user-generated content
+# 6. Use proper HTTP status codes (404 for not found, 301 for redirects)
+# 7. Implement pagination with rel="next" and rel="prev" for browse pages

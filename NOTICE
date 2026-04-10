@@ -1,0 +1,24 @@
+TeamAtOnce
+Copyright 2025 TeamAtOnce Contributors
+
+Licensed under the Apache License, Version 2.0.
+
+This project uses the following open-source components:
+
+Backend:
+  - NestJS (MIT License) - https://nestjs.com
+  - TypeScript (Apache-2.0) - https://typescriptlang.org
+  - PostgreSQL driver (pg) (MIT License) - https://node-postgres.com
+  - Socket.IO (MIT License) - https://socket.io
+  - ioredis (MIT License) - https://github.com/redis/ioredis
+  - BullMQ (MIT License) - https://docs.bullmq.io
+  - OpenAI Node.js (Apache-2.0) - https://github.com/openai/openai-node
+  - Stripe Node.js (MIT License) - https://stripe.com
+
+Frontend:
+  - React (MIT License) - https://reactjs.org
+  - Vite (MIT License) - https://vitejs.dev
+  - Tailwind CSS (MIT License) - https://tailwindcss.com
+  - Radix UI (MIT License) - https://radix-ui.com
+
+For full dependency lists see package.json files.
