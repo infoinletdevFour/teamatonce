@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "search": "Rechercher",
+    "getStartedFree": "Commencer Gratuitement",
+    "viewPricing": "Voir les Tarifs",
+    "seeHowItWorks": "Voir Comment Ca Marche",
+    "learnMore": "En Savoir Plus",
+    "sendMessage": "Envoyer un Message",
+    "contactSupport": "Contacter le Support"
+  },
+  "header": {
+    "findTalent": "Trouver des Talents",
+    "findJobs": "Trouver un Emploi",
+    "howItWorks": "Comment Ca Marche",
+    "pricing": "Tarifs",
+    "login": "Connexion"
+  }
+}

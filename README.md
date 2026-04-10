@@ -18,9 +18,25 @@
 </p>
 
 <p align="center">
+  <a href="https://teamatonce.com">Website</a> |
   <a href="#quick-start">Quick Start</a> |
   <a href="#features">Features</a> |
+  <a href="https://github.com/teamatonce/teamatonce/discussions">Discussions</a> |
   <a href="CONTRIBUTING.md">Contributing</a>
+</p>
+
+<p align="center">
+  <a href="./README.md">English</a> |
+  <a href="./README_JA.md">日本語</a> |
+  <a href="./README_ZH.md">中文</a> |
+  <a href="./README_KO.md">한국어</a> |
+  <a href="./README_ES.md">Español</a> |
+  <a href="./README_FR.md">Français</a> |
+  <a href="./README_DE.md">Deutsch</a> |
+  <a href="./README_PT-BR.md">Português</a> |
+  <a href="./README_AR.md">العربية</a> |
+  <a href="./README_HI.md">हिन्दी</a> |
+  <a href="./README_RU.md">Русский</a>
 </p>
 
 ---
@@ -28,6 +44,26 @@
 ## What is TeamAtOnce?
 
 TeamAtOnce is an open-source AI-driven development outsourcing marketplace that eliminates traditional risks through intelligent automation, AI-powered assessments, escrow payments, and real-time project management.
+
+## Why TeamAtOnce? (Comparison)
+
+| Feature | TeamAtOnce | Upwork | Toptal | Fiverr | Deel |
+|---------|-----------|--------|--------|--------|------|
+| **AI-Powered Matching** | ✅ NLP + smart matching | ❌ | ⚠️ Manual vetting | ❌ | ❌ |
+| **Built-in Project Mgmt** | ✅ Kanban, milestones, time tracking | ⚠️ Basic | ❌ | ❌ | ❌ |
+| **Escrow Payments** | ✅ Milestone-based | ✅ | ✅ | ✅ | ❌ |
+| **Video Collaboration** | ✅ Built-in calls + screen share | ❌ | ❌ | ❌ | ❌ |
+| **Skill Assessments** | ✅ AI-generated + certificates | ⚠️ Basic tests | ✅ Rigorous | ⚠️ Basic | ❌ |
+| **Learning Paths** | ✅ Courses + certifications | ❌ | ❌ | ❌ | ❌ |
+| **Real-Time Chat** | ✅ Channels + file sharing | ⚠️ Basic | ❌ | ⚠️ Basic | ❌ |
+| **Team Workspaces** | ✅ Multi-project org | ❌ | ❌ | ❌ | ❌ |
+| **Data Engine** | ✅ Company discovery crawler | ❌ | ❌ | ❌ | ❌ |
+| **Smart Contracts** | ✅ Auto-generated + e-sign | ⚠️ Basic | ❌ | ⚠️ Basic | ✅ |
+| **API Access** | ✅ Full REST API | ⚠️ Partial | ❌ | ❌ | ✅ |
+| **Self-Hosted** | ✅ Docker Compose | ❌ | ❌ | ❌ | ❌ |
+| **Open Source** | ✅ Apache 2.0 | ❌ | ❌ | ❌ | ❌ |
+| **Platform Fee** | 🟢 3-5% | 💰 10-20% | 💰 ~2x markup | 💰 20% | 💰 Custom |
+| **i18n** | ✅ 11 languages | ✅ | ✅ | ✅ | ✅ |
 
 ## Features
 

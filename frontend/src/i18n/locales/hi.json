@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "search": "खोजें",
+    "getStartedFree": "मुफ़्त में शुरू करें",
+    "viewPricing": "मूल्य देखें",
+    "seeHowItWorks": "कैसे काम करता है देखें",
+    "learnMore": "और जानें",
+    "sendMessage": "संदेश भेजें",
+    "contactSupport": "सहायता से संपर्क करें"
+  },
+  "header": {
+    "findTalent": "प्रतिभा खोजें",
+    "findJobs": "नौकरी खोजें",
+    "howItWorks": "कैसे काम करता है",
+    "pricing": "मूल्य",
+    "login": "लॉगिन"
+  }
+}

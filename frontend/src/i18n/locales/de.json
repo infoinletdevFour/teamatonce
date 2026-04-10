@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "search": "Suchen",
+    "getStartedFree": "Kostenlos Starten",
+    "viewPricing": "Preise Ansehen",
+    "seeHowItWorks": "So Funktioniert Es",
+    "learnMore": "Mehr Erfahren",
+    "sendMessage": "Nachricht Senden",
+    "contactSupport": "Support Kontaktieren"
+  },
+  "header": {
+    "findTalent": "Talente Finden",
+    "findJobs": "Jobs Finden",
+    "howItWorks": "So Funktioniert Es",
+    "pricing": "Preise",
+    "login": "Anmelden"
+  }
+}

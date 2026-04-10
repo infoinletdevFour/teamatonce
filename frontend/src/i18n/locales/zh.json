@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "加载中...",
+    "search": "搜索",
+    "getStartedFree": "免费开始",
+    "viewPricing": "查看定价",
+    "seeHowItWorks": "了解运作方式",
+    "learnMore": "了解更多",
+    "sendMessage": "发送消息",
+    "contactSupport": "联系支持"
+  },
+  "header": {
+    "findTalent": "寻找人才",
+    "findJobs": "寻找工作",
+    "howItWorks": "运作方式",
+    "pricing": "定价",
+    "login": "登录"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "search": "Поиск",
+    "getStartedFree": "Начать Бесплатно",
+    "viewPricing": "Посмотреть Цены",
+    "seeHowItWorks": "Как Это Работает",
+    "learnMore": "Узнать Больше",
+    "sendMessage": "Отправить Сообщение",
+    "contactSupport": "Связаться с Поддержкой"
+  },
+  "header": {
+    "findTalent": "Найти Специалистов",
+    "findJobs": "Найти Работу",
+    "howItWorks": "Как Это Работает",
+    "pricing": "Цены",
+    "login": "Войти"
+  }
+}

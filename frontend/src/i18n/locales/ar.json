@@ -1,0 +1,19 @@
+{
+  "common": {
+    "loading": "جاري التحميل...",
+    "search": "بحث",
+    "getStartedFree": "ابدأ مجاناً",
+    "viewPricing": "عرض الأسعار",
+    "seeHowItWorks": "شاهد كيف يعمل",
+    "learnMore": "اعرف المزيد",
+    "sendMessage": "إرسال رسالة",
+    "contactSupport": "تواصل مع الدعم"
+  },
+  "header": {
+    "findTalent": "ابحث عن موهبة",
+    "findJobs": "ابحث عن عمل",
+    "howItWorks": "كيف يعمل",
+    "pricing": "الأسعار",
+    "login": "تسجيل الدخول"
+  }
+}
