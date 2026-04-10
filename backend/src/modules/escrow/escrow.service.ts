@@ -89,7 +89,7 @@ export class EscrowService {
    *
    * @param milestoneId - ID of the milestone being funded
    * @param projectId - ID of the project
-   * @param clientId - ID of the client (Fluxez user ID)
+   * @param clientId - ID of the client (user ID)
    * @param amount - Amount in USD (e.g., 1000 for $1000)
    * @param paymentMethodId - Stripe payment method ID from client
    * @returns Payment record with escrow_status: 'authorized'
@@ -854,12 +854,12 @@ export class EscrowService {
   /**
    * Get or create Stripe customer for client
    *
-   * @param clientId - Fluxez user ID
+   * @param clientId - user ID
    * @returns Stripe customer ID
    */
   private async getOrCreateStripeCustomer(clientId: string): Promise<string> {
     // Check if user already has a Stripe customer ID stored
-    // Use getUserById from Fluxez SDK which queries auth.users
+    // Use getUserById from database service which queries auth.users
     const user = await this.db.getUserById(clientId);
 
     if (!user) {
@@ -1105,7 +1105,7 @@ export class EscrowService {
       auto_approved: false,
     });
 
-    // Filter by date (Fluxez may not support $lte in findMany)
+    // Filter by date (database may not support $lte in findMany)
     const ready = deliverables.filter((d) => {
       const autoApproveDate = new Date(d.auto_approve_at);
       return autoApproveDate <= now;
