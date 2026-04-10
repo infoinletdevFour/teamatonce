@@ -1,6 +1,6 @@
 import { Injectable, Logger, NotFoundException, BadRequestException } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { DatabaseService } from '../../database/database.service';
+import { DatabaseService } from '../database/database.service';
 import Stripe from 'stripe';
 
 /**

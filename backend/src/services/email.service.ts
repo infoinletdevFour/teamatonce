@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
-import { DatabaseService } from '../database/database.service';
+import { DatabaseService } from '../modules/database/database.service';
 import {
   renderEmailTemplate,
   htmlToPlainText,

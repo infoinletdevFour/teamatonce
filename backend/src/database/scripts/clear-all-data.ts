@@ -18,7 +18,7 @@ if (!process.env.DATABASE_SERVICE_KEY) {
   throw new Error('DATABASE_SERVICE_KEY is required');
 }
 
-const database = new databaseClient(process.env.DATABASE_SERVICE_KEY, { debug: false });
+const database = new databasePool(process.env.DATABASE_SERVICE_KEY, { debug: false });
 
 console.log('🔧 database Configuration Loaded');
 

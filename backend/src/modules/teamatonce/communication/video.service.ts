@@ -4,7 +4,7 @@ import { TeamAtOnceGateway } from '../../../websocket/teamatonce.gateway';
 import { NotificationsService } from '../../notifications/notifications.service';
 import { NotificationPriority, NotificationType } from '../../notifications/dto/create-notification.dto';
 import { ProjectAccessService } from '../project/project-access.service';
-import { livekitVideoService } from './livekit-video.service';
+import { LiveKitVideoService } from './livekit-video.service';
 import {
   CreateVideoSessionDto,
   UpdateVideoSessionDto,
@@ -31,8 +31,8 @@ export class VideoService {
     private readonly notificationsService: NotificationsService,
     @Inject(forwardRef(() => ProjectAccessService))
     private readonly projectAccessService: ProjectAccessService,
-    @Inject(forwardRef(() => databaseVideoService))
-    private readonly databaseVideoService: databaseVideoService,
+    @Inject(forwardRef(() => LiveKitVideoService))
+    private readonly LiveKitVideoService: LiveKitVideoService,
   ) {}
 
   /**

@@ -5,7 +5,7 @@ import { NotificationsService } from '../../notifications/notifications.service'
 import { NotificationType, NotificationPriority } from '../../notifications/dto';
 import { SchedulerService } from '../scheduler.service';
 import { TeamAtOnceGateway } from '../../../websocket/teamatonce.gateway';
-import { livekitVideoService } from '../../teamatonce/communication/livekit-video.service';
+import { LiveKitVideoService } from '../../teamatonce/communication/livekit-video.service';
 import { RecordingStatus } from '../../teamatonce/communication/dto/recording.dto';
 
 @Injectable()
@@ -18,7 +18,7 @@ export class RecordingProcessorJob {
 
   constructor(
     private readonly db: DatabaseService,
-    private readonly databaseVideoService: databaseVideoService,
+    private readonly LiveKitVideoService: LiveKitVideoService,
     private readonly notificationsService: NotificationsService,
     private readonly schedulerService: SchedulerService,
     private readonly gateway: TeamAtOnceGateway,

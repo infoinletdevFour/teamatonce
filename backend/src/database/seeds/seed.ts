@@ -9,7 +9,7 @@ import { AuthService } from '../../modules/auth/auth.service';
 import { CompanyService } from '../../modules/company/company.service';
 import { InvitationService } from '../../modules/company/invitation.service';
 import { ProjectService } from '../../modules/teamatonce/project/project.service';
-import { DatabaseService } from '../database/database.service';
+import { DatabaseService } from '../../modules/database/database.service';
 
 async function bootstrap() {
   console.log('🌱 Starting Team@Once database seeding...\n');

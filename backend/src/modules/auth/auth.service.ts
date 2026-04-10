@@ -454,13 +454,13 @@ export class AuthService {
 
   // ============================================
   // Social Authentication Methods
-  // NOTE: Social auth is now handled by databaseSocialAuthService
+  // NOTE: Social auth is now handled by SocialAuthService
   // using database's tenantAuth module
   // ============================================
 
   /**
    * Get list of available social providers
-   * NOTE: This method is deprecated. Use databaseSocialAuthService.getProviders() instead
+   * NOTE: This method is deprecated. Use SocialAuthService.getProviders() instead
    */
   async getSocialProviders(): Promise<GetSocialProvidersResponseDto> {
     this.logger.debug('Getting available social providers (deprecated method)');
@@ -491,7 +491,7 @@ export class AuthService {
 
   /**
    * Initialize social authentication flow
-   * NOTE: This method is deprecated. Use databaseSocialAuthService.getOAuthUrl() instead
+   * NOTE: This method is deprecated. Use SocialAuthService.getOAuthUrl() instead
    */
   async initSocialAuth(dto: SocialAuthInitDto): Promise<{ authorizationUrl: string; state: string }> {
     this.logger.debug(`Initializing social auth for provider: ${dto.provider} (deprecated method)`);
@@ -500,7 +500,7 @@ export class AuthService {
 
   /**
    * Handle OAuth callback
-   * NOTE: This method is deprecated. Use databaseSocialAuthService.handleOAuthCallback() instead
+   * NOTE: This method is deprecated. Use SocialAuthService.handleOAuthCallback() instead
    */
   async handleSocialCallback(dto: SocialAuthCallbackDto): Promise<SocialAuthResponseDto> {
     this.logger.debug(`Handling social callback for provider: ${dto.provider} (deprecated method)`);
@@ -509,7 +509,7 @@ export class AuthService {
 
   /**
    * Authenticate user with social provider
-   * NOTE: This will be used by databaseSocialAuthService after OAuth callback
+   * NOTE: This will be used by SocialAuthService after OAuth callback
    */
   async socialAuth(dto: SocialAuthDto): Promise<SocialAuthResponseDto> {
     this.logger.debug(`Social authentication for provider: ${dto.provider}`);

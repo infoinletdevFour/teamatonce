@@ -9,8 +9,8 @@ import { Injectable, Logger } from '@nestjs/common';
 import { DatabaseService } from '../../database/database.service';
 
 @Injectable()
-export class databaseVideoService {
-  private readonly logger = new Logger(databaseVideoService.name);
+export class LiveKitVideoService {
+  private readonly logger = new Logger(LiveKitVideoService.name);
 
   constructor(private readonly db: DatabaseService) {}
 

@@ -3,8 +3,8 @@
     "loading": "加载中...",
     "search": "搜索",
     "getStartedFree": "免费开始",
-    "viewPricing": "查看定价",
-    "seeHowItWorks": "了解运作方式",
+    "viewPricing": "查看价格",
+    "seeHowItWorks": "了解工作原理",
     "learnMore": "了解更多",
     "sendMessage": "发送消息",
     "contactSupport": "联系支持"
@@ -12,8 +12,433 @@
   "header": {
     "findTalent": "寻找人才",
     "findJobs": "寻找工作",
-    "howItWorks": "运作方式",
-    "pricing": "定价",
+    "howItWorks": "工作原理",
+    "pricing": "价格",
     "login": "登录"
+  },
+  "landing": {
+    "hero": {
+      "badge": {
+        "talent": "10,000+ 专家开发者随时待命",
+        "jobs": "5,000+ 顶级公司提供的工作机会"
+      },
+      "title": {
+        "talent": "聘请专家开发者",
+        "talentHighlight": "适用于任何项目",
+        "jobs": "找到您梦想的工作",
+        "jobsHighlight": "参与精彩项目"
+      },
+      "subtitle": {
+        "talent": "与全球顶级开发者建立联系。AI驱动的匹配仅需几分钟。",
+        "jobs": "发现领先公司的机会。AI驱动的工作匹配。"
+      },
+      "searchPlaceholder": {
+        "talent": "搜索 \"React 开发者\"、\"移动应用\"、\"AI 工程师\"...",
+        "jobs": "搜索 \"前端工作\"、\"远程职位\"、\"全职\"..."
+      },
+      "popular": "热门:",
+      "popularTalent": ["React 开发者", "移动应用", "AI/ML", "全栈", "DevOps", "UI/UX"],
+      "popularJobs": ["远程工作", "前端", "后端", "全职", "合同", "兼职"],
+      "trustBadges": {
+        "secure": "安全认证",
+        "noCard": "无需信用卡",
+        "aiPowered": "AI 驱动匹配"
+      }
+    },
+    "categories": {
+      "badge": "探索人才",
+      "title": "按类别浏览",
+      "subtitle": "在各个专业领域中找到适合您项目需求的完美开发者",
+      "viewAll": "查看所有类别"
+    },
+    "featuredDevelopers": {
+      "badge": "顶级人才",
+      "title": "评分最高的卖家",
+      "subtitle": "精心挑选的卖家,拥有良好的业绩记录,随时为您实现创意",
+      "viewAll": "查看所有卖家"
+    },
+    "featuredJobs": {
+      "badge": "热门工作",
+      "title": "精选工作机会",
+      "subtitle": "发现寻找优秀开发者的顶级公司提供的激动人心的机会",
+      "viewAll": "查看所有工作"
+    },
+    "features": {
+      "badge": "为什么选择我们",
+      "title": "您所需的一切",
+      "titleHighlight": "尽在一个平台",
+      "subtitle": "强大的功能旨在让招聘和工作无缝衔接",
+      "items": {
+        "escrow": {
+          "title": "14天托管保护",
+          "description": "资金安全托管直到交付。14天后自动释放,保护双方权益。"
+        },
+        "aiMatching": {
+          "title": "AI 驱动匹配",
+          "description": "智能竞标系统基于50+因素将客户与完美的团队连接起来。"
+        },
+        "templates": {
+          "title": "95+ 项目模板",
+          "description": "跨14个类别的预构建工作流程,包含里程碑、成本和需求。"
+        },
+        "dispute": {
+          "title": "7-2-2 争议解决",
+          "description": "7天协商,2天调解,2天执行。快速、公正的解决方案。"
+        },
+        "communication": {
+          "title": "沟通中心",
+          "description": "集成聊天、视频通话、白板和会议调度器,一站式解决。"
+        },
+        "teamTypes": {
+          "title": "个人、团队和机构",
+          "description": "适用于个人、小团队或完整机构的灵活公司档案。"
+        },
+        "proofOfDelivery": {
+          "title": "交付证明",
+          "description": "必需的文件上传和时间线跟踪确保责任落实。"
+        },
+        "pricing": {
+          "title": "透明定价",
+          "description": "成功交付仅收10%平台费。无隐藏费用。"
+        }
+      }
+    },
+    "howItWorks": {
+      "badge": "简单流程",
+      "title": "从构想到发布",
+      "titleHighlight": "仅需5个简单步骤",
+      "subtitle": "我们的AI驱动平台将引导您完成项目的每个阶段",
+      "steps": {
+        "step1": {
+          "title": "发布您的项目",
+          "description": "用自然语言描述任何项目 - 设计、营销、写作、开发、视频或商业咨询。",
+          "mockupLabel": "项目需求",
+          "mockupText": "需要一个包含徽标、颜色和社交媒体模板的品牌识别包...",
+          "tags": ["徽标设计", "品牌推广", "2周"]
+        },
+        "step2": {
+          "title": "专家提交提案",
+          "description": "AI根据技能、作品集和经验计算匹配分数。顶级匹配的专业人士提交定制提案。",
+          "matchScore": "AI 匹配分数",
+          "proposerName": "Maria 设计工作室",
+          "proposerStatus": "提案已发送",
+          "proposerText": "基于我在品牌设计和识别方面8年的经验...",
+          "skills": "技能",
+          "skillsMatch": "94% 匹配",
+          "experience": "经验",
+          "experienceYears": "8+ 年",
+          "rate": "费率",
+          "inBudget": "在预算内"
+        },
+        "step3": {
+          "title": "审查和选择",
+          "description": "浏览详细的作品集、客户评价和工作样本。在聘用前与专业人士聊天。",
+          "studioName": "创意工作室",
+          "studioType": "品牌和设计机构 • 150+ 项目",
+          "skills": ["徽标设计", "品牌识别", "UI/UX"],
+          "pricing": "$2,500/项目 • 可用",
+          "chat": "聊天"
+        },
+        "step4": {
+          "title": "协作和构建",
+          "description": "使用内置的看板、时间跟踪、视频通话和文件共享。一切实时同步。",
+          "columns": ["待办", "进行中", "已完成"],
+          "task": "任务",
+          "hoursTracked": "本周追踪32小时"
+        },
+        "step5": {
+          "title": "14天托管保护",
+          "description": "资金保留直到批准或14天后自动释放。如果发生争议,我们的7-2-2系统快速解决。",
+          "escrowTitle": "14天托管",
+          "protected": "受保护",
+          "timeline": {
+            "day0": "第0天",
+            "day0Event": "客户资助里程碑",
+            "day0Status": "已授权",
+            "day10": "第10天",
+            "day10Event": "开发者提交工作",
+            "day10Status": "审查中",
+            "day15": "第15天",
+            "day15Event": "客户批准",
+            "day15Status": "已释放"
+          },
+          "autoRelease": "如无响应,第24天自动释放 • 7-2-2 争议解决",
+          "releasePayment": "释放付款"
+        }
+      }
+    },
+    "whyChoose": {
+      "title": "为什么选择 Team@Once",
+      "subtitle": "聘请和管理开发人才的智能方式"
+    },
+    "comparison": {
+      "badge": "看看差异",
+      "title": "为什么 Team@Once",
+      "titleHighlight": "胜过竞争对手",
+      "subtitle": "我们已经构建了一个全能平台,能做到其他平台做不到的事情",
+      "feature": "功能",
+      "teamAtOnce": "Team@Once",
+      "allInOne": "一体化",
+      "marketplace": "市场",
+      "gigPlatform": "零工平台",
+      "eliteTalent": "精英人才",
+      "full": "完整",
+      "basic": "基本",
+      "partial": "部分",
+      "manual": "手动",
+      "features": {
+        "paymentProtection": "付款保护",
+        "paymentProtectionValue": "14天自动释放 + 争议",
+        "proofOfDelivery": "交付证明",
+        "proofOfDeliveryValue": "必需上传 + 跟踪",
+        "teamManagement": "团队管理",
+        "teamManagementValue": "公司档案 + 分配",
+        "projectTemplates": "项目模板",
+        "projectTemplatesValue": "95+ 模板,14个类别",
+        "disputeResolution": "争议解决",
+        "disputeResolutionValue": "自动化 7-2-2 时间线",
+        "aiFeatures": "AI 功能",
+        "aiFeaturesValue": "匹配 + 成本估算",
+        "communicationHub": "沟通中心",
+        "communicationHubValue": "聊天、视频、白板",
+        "milestoneWorkflow": "里程碑工作流",
+        "milestoneWorkflowValue": "提交 → 审查 → 批准",
+        "teamSupport": "个人/团队/机构支持"
+      }
+    },
+    "testimonials": {
+      "badge": "人们怎么说",
+      "title": "受客户信赖",
+      "titleHighlight": "和开发者一样",
+      "subtitle": "看看我们的社区对 Team@Once 的体验有何评价",
+      "fallback": {
+        "testimonial1": {
+          "content": "AI匹配为我们节省了数周的搜索时间。我们找到了一位完美理解我们项目需求的React开发者。",
+          "name": "James Mitchell",
+          "company": "CEO, TechStartup Inc",
+          "role": "客户"
+        },
+        "testimonial2": {
+          "content": "作为自由开发者,Team@Once 改变了我的游戏。自加入以来,我的收入增加了40%。",
+          "name": "Sarah Chen",
+          "title": "高级 React 开发者",
+          "role": "开发者"
+        },
+        "testimonial3": {
+          "content": "托管付款系统让我安心。强烈推荐给任何企业!",
+          "name": "Michael Rodriguez",
+          "company": "产品经理, FinanceApp",
+          "role": "客户"
+        }
+      }
+    },
+    "faq": {
+      "badge": "有问题吗?",
+      "title": "常见问题",
+      "titleHighlight": "解答",
+      "subtitle": "关于 Team@Once 您需要知道的一切。找不到答案?联系我们的支持团队。",
+      "stillHaveQuestions": "仍有疑问?",
+      "items": {
+        "escrow": {
+          "question": "14天托管保护如何运作?",
+          "answer": "当您为里程碑提供资金时,Stripe 授权付款但尚未收取。开发者看到'已资助'状态并开始工作。提交后,您有14天的审查时间。如果您批准,付款将被收取并释放(扣除10%平台费)。如果您不采取任何行动,付款将在14天后自动释放 - 保护开发者免受消失客户的影响。"
+        },
+        "dispute": {
+          "question": "7-2-2 争议解决系统是什么?",
+          "answer": "如果发生争议:7天协商时间,双方提交证据;2天管理员调解,我们审查并决定分配;2天执行。此自动化时间线确保快速、公正的解决方案,无需无休止的来回。需要证据 - 我们不依赖各执一词。"
+        },
+        "templates": {
+          "question": "什么是95+项目模板?",
+          "answer": "我们提供跨14个类别的预构建项目模板:商业应用($15k-$80k)、电子商务($10k-$50k)、医疗保健($20k-$100k)、AI/ML($25k-$150k)等。每个模板都包括默认里程碑、技术栈建议、时间线估算和需求清单 - 让您从坚实的基础开始。"
+        },
+        "team": {
+          "question": "团队管理如何运作?",
+          "answer": "我们支持三种账户类型:个人开发者(单独自由职业者)、小团队(2-10成员)和开发公司(完整机构)。团队功能包括成员角色(所有者、管理员、开发者、设计师、QA)、工作量跟踪(可视化容量指示器)、项目分配(分配百分比)和绩效指标。"
+        },
+        "communication": {
+          "question": "包含哪些沟通工具?",
+          "answer": "我们的沟通中心包括:带文件附件和反应的实时聊天、带屏幕共享和录制的视频会议、用于图表的协作白板、支持时区的会议调度器和用于截止日期跟踪的项目日历。全部内置 - 无需外部工具。"
+        },
+        "bidding": {
+          "question": "竞标系统如何运作?",
+          "answer": "客户发布项目而不指定团队。开发者浏览市场并提交带有求职信、建议成本、自定义里程碑和团队组成的提案。AI根据技术栈重叠计算匹配分数。客户比较提案并选择获胜者 - 其他提案自动被拒绝,项目离开市场。"
+        },
+        "proofOfDelivery": {
+          "question": "需要哪些交付证明?",
+          "answer": "开发者在提交里程碑时必须上传交付物(代码、文件、截图)。系统跟踪提交时间戳、重新提交计数和审查历史。这创建了一个证据链,在发生争议时保护双方 - 不再有'我已交付'与'我从未收到'的争论。"
+        },
+        "fees": {
+          "question": "Team@Once 收取什么费用?",
+          "answer": "我们仅对成功交付收取10%平台费。这在付款释放给开发者时扣除。无隐藏费用,无订阅费用,无预付费用。如果里程碑因未交付而退款,双方均不支付任何费用。只有项目成功时我们才赚钱。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备改变",
+      "titleLine2": "您的下一个项目?",
+      "subtitle": "加入数千家公司和开发者,他们信赖 Team@Once 进行无缝协作和卓越成果。",
+      "trustIndicators": {
+        "noCard": "无需信用卡",
+        "freeStart": "免费开始",
+        "cancel": "随时取消"
+      }
+    },
+    "contact": {
+      "badge": "联系我们",
+      "title": "有问题吗?",
+      "titleHighlight": "我们期待您的来信",
+      "subtitle": "填写下面的表格,我们的团队将在24小时内回复您",
+      "form": {
+        "fullName": "全名 *",
+        "fullNamePlaceholder": "张三",
+        "email": "电子邮件地址 *",
+        "emailPlaceholder": "john@example.com",
+        "subject": "主题 *",
+        "subjectPlaceholder": "我们如何帮助您?",
+        "message": "消息 *",
+        "messagePlaceholder": "告诉我们更多关于您的项目或咨询的信息...",
+        "privacy": "提交此表单,即表示您同意我们的",
+        "privacyPolicy": "隐私政策",
+        "and": "和",
+        "terms": "服务条款"
+      }
+    }
+  },
+  "footer": {
+    "description": "寻找、聘用和管理世界级开发者的一体化平台。",
+    "copyright": "© {{year}} Team@Once. 保留所有权利。",
+    "product": {
+      "title": "产品",
+      "features": "功能",
+      "pricing": "价格",
+      "howItWorks": "工作原理",
+      "faq": "常见问题"
+    },
+    "company": {
+      "title": "公司",
+      "about": "关于",
+      "blog": "博客",
+      "careers": "招聘"
+    },
+    "legal": {
+      "title": "法律",
+      "privacy": "隐私",
+      "terms": "条款",
+      "cookiePolicy": "Cookie 政策",
+      "gdpr": "GDPR"
+    }
+  },
+  "languageSwitcher": {
+    "language": "语言"
+  },
+  "auth": {
+    "login": {
+      "title": "登录",
+      "subtitle": "输入您的凭证以继续",
+      "email": "电子邮件地址",
+      "emailPlaceholder": "you@example.com",
+      "password": "密码",
+      "passwordPlaceholder": "输入您的密码",
+      "forgotPassword": "忘记密码?",
+      "signIn": "登录",
+      "signingIn": "正在登录...",
+      "noAccount": "还没有账户?",
+      "signUp": "注册",
+      "accountBanned": "账户已被禁",
+      "orContinueWith": "或继续使用"
+    },
+    "signup": {
+      "title": "创建您的账户",
+      "invitationTitle": "接受邀请",
+      "subtitle": "加入全球数千名客户和卖家",
+      "invitationSubtitle": "创建账户以加入团队",
+      "selectType": "我想注册为:",
+      "client": "客户",
+      "clientDescription": "我想为我的项目聘请开发者",
+      "seller": "卖家",
+      "sellerDescription": "我想提供我的服务",
+      "clientFeatures": {
+        "feature1": "发布无限项目",
+        "feature2": "AI 驱动的团队匹配",
+        "feature3": "安全的里程碑付款"
+      },
+      "sellerFeatures": {
+        "feature1": "找到优质项目",
+        "feature2": "设定您自己的费率",
+        "feature3": "安全获得付款"
+      },
+      "accountType": "账户",
+      "change": "更改",
+      "fullName": "全名",
+      "fullNamePlaceholder": "张三",
+      "email": "电子邮件地址",
+      "emailPlaceholder": "you@example.com",
+      "password": "密码",
+      "passwordPlaceholder": "至少8个字符",
+      "confirmPassword": "确认密码",
+      "confirmPasswordPlaceholder": "重新输入您的密码",
+      "termsAgreement": "我同意",
+      "termsOfService": "服务条款",
+      "and": "和",
+      "privacyPolicy": "隐私政策",
+      "createAccount": "创建账户",
+      "creatingAccount": "正在创建账户...",
+      "haveAccount": "已经有账户?",
+      "signIn": "登录",
+      "invitationNotice": "团队邀请",
+      "invitationMessage": "您已被邀请加入团队。完成注册以接受邀请。"
+    },
+    "forgotPassword": {
+      "title": "忘记密码?",
+      "subtitle": "别担心!输入您的电子邮件,我们将向您发送重置说明",
+      "email": "电子邮件地址",
+      "emailPlaceholder": "you@example.com",
+      "sendResetLink": "发送重置链接",
+      "sending": "正在发送...",
+      "backToSignIn": "返回登录",
+      "checkEmail": "检查您的电子邮件",
+      "emailSentTo": "我们已将密码重置说明发送至:",
+      "didntReceive": "点击电子邮件中的链接重置密码。如果没看到,请检查垃圾邮件文件夹。",
+      "resendEmail": "重新发送电子邮件",
+      "needHelp": "需要帮助?",
+      "contactSupport": "联系我们的支持团队:",
+      "dataSecure": "您的数据",
+      "secure": "安全",
+      "withUs": "在我们这里"
+    },
+    "authSuccess": {
+      "title": "身份验证成功!",
+      "message": "您已成功登录。正在重定向到您的仪表板..."
+    },
+    "authError": {
+      "title": "身份验证失败",
+      "tryAgain": "重试",
+      "backToHome": "返回主页"
+    },
+    "oauthCallback": {
+      "title": "正在完成登录...",
+      "message": "请稍候,我们正在完成您的账户设置"
+    },
+    "errors": {
+      "emailRequired": "电子邮件是必需的",
+      "emailInvalid": "电子邮件无效",
+      "validEmail": "请输入有效的电子邮件地址",
+      "passwordRequired": "密码是必需的",
+      "passwordLength": "密码必须至少6个字符",
+      "passwordMin8": "密码必须至少8个字符",
+      "confirmPasswordRequired": "请确认您的密码",
+      "passwordsMismatch": "密码不匹配",
+      "nameRequired": "姓名是必需的",
+      "nameMin": "姓名必须至少2个字符",
+      "selectAccountType": "请选择账户类型",
+      "acceptTerms": "您必须接受条款和条件",
+      "resetFailed": "发送重置电子邮件失败"
+    },
+    "social": {
+      "continueWith": "继续使用",
+      "google": "Google",
+      "github": "GitHub",
+      "divider": "或"
+    }
   }
 }

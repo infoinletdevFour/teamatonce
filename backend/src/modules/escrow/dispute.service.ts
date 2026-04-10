@@ -1,5 +1,5 @@
 import { Injectable, Logger, NotFoundException, BadRequestException, Inject, forwardRef } from '@nestjs/common';
-import { DatabaseService } from '../../database/database.service';
+import { DatabaseService } from '../database/database.service';
 import { StripeService } from '../payment/stripe.service';
 import { TeamAtOnceGateway } from '../../websocket/teamatonce.gateway';
 import { NotificationsService } from '../notifications/notifications.service';

@@ -29,6 +29,9 @@ import { DatabaseModule } from './modules/database/database.module';
 import { StorageModule } from './modules/storage/storage.module';
 import { AdminModule } from './modules/admin/admin.module';
 import { InstructorsModule } from './modules/instructors/instructors.module';
+import { EscrowModule } from './modules/escrow/escrow.module';
+import { PaymentModule } from './modules/payment/payment.module';
+import { WorkspaceModule } from './modules/workspace/workspace.module';
 
 // Team@Once specific modules
 import { TeamAtOnceWebSocketModule } from './websocket/websocket.module';
@@ -84,6 +87,9 @@ import { QueueModule } from './modules/queue/queue.module';
     StorageModule,
     AdminModule,
     InstructorsModule,
+    EscrowModule,
+    PaymentModule,
+    WorkspaceModule,
 
     // Team@Once modules
     ProjectModule,

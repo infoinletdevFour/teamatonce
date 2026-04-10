@@ -10,8 +10,8 @@ import { DatabaseService } from '../database/database.service';
 type SocialProvider = 'google' | 'github' | 'facebook' | 'apple';
 
 @Injectable()
-export class databaseSocialAuthService {
-  private readonly logger = new Logger(databaseSocialAuthService.name);
+export class SocialAuthService {
+  private readonly logger = new Logger(SocialAuthService.name);
 
   constructor(private readonly db: DatabaseService) {}
 

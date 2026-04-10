@@ -13,9 +13,9 @@ type SocialProvider = 'google' | 'github' | 'facebook' | 'apple';
 
 @ApiTags('Authentication - Social (database)')
 @Controller('auth/social')
-export class databaseSocialAuthController {
+export class SocialAuthController {
   constructor(
-    private socialAuthService: databaseSocialAuthService,
+    private socialAuthService: SocialAuthService,
     private configService: ConfigService,
   ) {}
 

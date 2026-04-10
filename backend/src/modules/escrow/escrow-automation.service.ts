@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
-import { DatabaseService } from '../../database/database.service';
+import { DatabaseService } from '../database/database.service';
 import { EscrowService } from './escrow.service';
 import { DisputeService } from './dispute.service';
 
