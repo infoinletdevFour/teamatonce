@@ -39,8 +39,6 @@ import { FeedbackModule } from './modules/teamatonce/feedback/feedback.module';
 import { ProjectDefinitionModule } from './modules/teamatonce/project-definition/project-definition.module';
 import { TeamModule } from './modules/teamatonce/team/team.module';
 import { CompanyModule } from './modules/company/company.module';
-import { PaymentModule } from './modules/payment/payment.module';
-import { EscrowModule } from './modules/escrow/escrow.module';
 import { AnalyticsModule as TeamAtOnceAnalyticsModule } from './modules/teamatonce/analytics/analytics.module';
 import { NotesModule } from './modules/teamatonce/notes/notes.module';
 import { DeveloperModule } from './modules/teamatonce/developer/developer.module';
@@ -95,8 +93,6 @@ import { QueueModule } from './modules/queue/queue.module';
     ProjectDefinitionModule,
     TeamModule,
     CompanyModule,
-    PaymentModule,
-    EscrowModule,
     TeamAtOnceAnalyticsModule,
     NotesModule,
     DeveloperModule,

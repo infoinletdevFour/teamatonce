@@ -16,7 +16,6 @@ async function bootstrap() {
   // Configure Socket.IO adapter
   app.useWebSocketAdapter(new IoAdapter(app));
 
-  // Raw body parser for Stripe webhooks - MUST come before JSON parser
   // Only applies to webhook endpoints
   app.use('/api/v1/payment/webhook', bodyParser.raw({ type: 'application/json', limit: '10mb' }));
 

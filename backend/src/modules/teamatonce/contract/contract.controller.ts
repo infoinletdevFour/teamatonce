@@ -14,7 +14,6 @@ import {
 import { ApiTags, ApiOperation, ApiResponse, ApiBearerAuth, ApiParam } from '@nestjs/swagger';
 import { JwtAuthGuard } from '../../auth/guards/jwt-auth.guard';
 import { ContractService } from './contract.service';
-import { PaymentService } from './payment.service';
 import { SupportService } from './support.service';
 import {
   CreateContractDto,
